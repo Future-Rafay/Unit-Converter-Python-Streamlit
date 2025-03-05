@@ -3,6 +3,10 @@ import pandas as pd
 import datetime
 
 # Conversion functions with additional units
+st.set_page_config(page_title='Advanced Unit Converter',
+                   layout='wide', icon='📐')
+
+
 def length_conversion(value, from_unit, to_unit):
     factors = {
         'meters': 1, 'kilometers': 0.001, 'centimeters': 100, 'millimeters': 1000,
@@ -71,6 +75,7 @@ presets = {
 }
 
 # App layout
+
 st.title('📐 Advanced Unit Converter')
 with st.sidebar:
     st.header("Settings")
