@@ -4,7 +4,7 @@ import datetime
 
 # Conversion functions with additional units
 st.set_page_config(page_title='Advanced Unit Converter',
-                   layout='wide', icon='📐')
+                   layout='wide', page_icon='📐')
 
 
 def length_conversion(value, from_unit, to_unit):
